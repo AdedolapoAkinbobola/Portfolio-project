@@ -39,7 +39,7 @@ SELECT TOP (1000) [UniqueID ]
   Update Housing
   SET SaleDateConverted = Convert (Date,SaleDate)
 
-  ----Property Address data
+  ---- Populate Property Address data
 
   Select *
   From [portofolio project]..Housing
